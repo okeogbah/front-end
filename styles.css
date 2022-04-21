@@ -1,0 +1,78 @@
+/* Always remember, the body and h1 element has a default margin. you can choose to set it to a margin of your choice or leave it at zero to remove the margin. */
+body {
+    margin: 0;
+    text-align: center;
+    font-family:' merriweather' serif;
+    background-color: #FFEBC1;
+}
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+h1{
+    margin-top: 0;
+    /* width:10%;
+    margin: 0 auto 0 auto; */
+    font-family: 'sacramento', cursive;
+    font-size: 5.625em;
+    color: #8E3200;
+    margin: 50px auto 0 auto;
+    /* line-height: 2; */
+}
+h2 {
+    font-family: 'montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #8E3200;
+}
+h3{
+    font-family: 'montserrat', sans-serif;
+    color: #8E3200;
+}
+
+hr {
+    border-color: #A64B2A;
+    border-style: dashed;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.top-container{
+    background-color: #D7A86E;
+    padding: 20px;
+    position: relative;
+    padding-top: 100px;
+}
+.me {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+.contact {
+    width: 50px;
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    /* text-align: left;
+    line-height: 2; */
+}
+/* .web-img {
+    width: 30%;
+    float: left;
+    margin-right:30px;
+}
+.braid-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+    
+} */
+/* .webwrite {
+    clear: left;
+}
+.braidwrite {
+    clear: right; */
